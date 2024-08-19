@@ -5,7 +5,7 @@ import { map } from "rxjs/operators";
 
 @Injectable()
 export class EvmService {
-  private readonly baseUrl = "https://haqq-evm.publicnode.com/";
+  private readonly baseUrl = "https://haqq-evm-rpc.publicnode.com";
 
   constructor(private readonly httpService: HttpService) {}
 
